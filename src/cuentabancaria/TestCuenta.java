@@ -1,4 +1,4 @@
-package basicos;
+package cuentabancaria;
 
 public class TestCuenta {
 	
@@ -36,6 +36,11 @@ public class TestCuenta {
 		
 		System.out.println(cuenta03.getSaldo());
 		
+		System.out.println("\n ==============================================");
+		
+		System.out.println("\n ====== MÉTODO DE INGRESO ==============");
+		
+		
 		
 		System.out.println("\n == Realizamos un Ingreso == ");
 		
@@ -47,6 +52,10 @@ public class TestCuenta {
 		
 		System.out.println(cuenta03.getSaldo());
 		
+		
+		System.out.println("\n ==============================================");
+		
+		System.out.println("\n ====== MÉTODO DE EXTRACCION ==============");
 		
 		
 		System.out.println("\n == Realizamos una Extracción == ");
@@ -70,8 +79,27 @@ public class TestCuenta {
 		
 		System.out.println(cuenta03.getSaldo());
 		
+		System.out.println("\n ==============================================");
+		
+		System.out.println("\n ====== MÉTODO DE TRANSFERENCIA ==============");
+		
+		//Creamos 2 nuevas cuenta para su uso
+		Cuenta cuentaCliente001 = new Cuenta("Josefina Contreras","745657567" , 5 , 120000);
+		
+		Cuenta cuentaCliente002 = new Cuenta("Roberto Quiroga","838376467894" , 2 , 180000);
 		
 		
+		System.out.println(cuentaCliente001.toString());
+		System.out.println(cuentaCliente002.toString());
+		
+		System.out.println("\n");
+		
+		cuentaCliente001.transferencia(cuentaCliente002, 200000);
+		
+
+		System.out.println("\n");
+		
+		cuentaCliente001.transferencia(cuentaCliente002, 100000);
 		
 		
 	}

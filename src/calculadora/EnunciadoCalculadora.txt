@@ -1,0 +1,33 @@
+
+Se desea crear una Clase Calculadora que realice las operaciones Basicas 
+e Intermedias de una Calculadora con 2 Números. Dichas operaciones seran metodos
+ independientes de tipo double que solamente almacenaran los resultados de las
+operaciones 
+
+Operaciones Basicas --> Suma, Resta, Multiplicación, División
+
+Operaciones Intermedias --> Raiz, Promedio, Numero Primo
+
+Para la operacion raiz se deberan crear 2 metodos, uno que calcule la raiz del 
+primer numero y otro que calcule las raices de ambos numeros
+
+
+Se tendrán 2 campos para almacenar los números y todos los campos necesarios para 
+guardar los resultados de las operaciones basicas e intermedias
+Para la Suma --> resultadoSuma , para la Resta.... etc. 
+
+Los campos de los números y los de los resultados serán de  tipo double.
+
+Los campos de los números serán default y el resto private
+
+
+
+La clase deberá tener un constructor solamente con los campos publicos o por defecto
+y un constructor vacio 
+
+La clase deberá tener método toString modificado para mejorar la visualización
+en la Salida de la consola
+
+
+
+Fuente --> Ninguna, lo diseñe yo

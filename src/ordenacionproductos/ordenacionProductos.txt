@@ -1,0 +1,38 @@
+Se desea craer una clase que nos permita realizar diversas ordenaciones de 
+listas de productos de supermercado. Las ordenaciones serán las siguientes..
+
+- Ordenar Productos de supermercado de forma Natural segun el id con todos sus datos
+
+- Ordenar Productos de supermercado de forma Natural segun sus nombres con todos 
+sus datos
+
+- Ordenar Productos de forma natural con los datos esenciales (id, nombre, marca, precio)
+
+- Ordenar Productos según su id (obtendremos el id, nombre y precio)
+
+- Ordenar según su nombre (obtendremos id, nombre y precio)
+
+- Ordenar según precio (obtendremos id, nombre y precio)
+
+Además se desea obtener: 
+
+-El Producto o los Productos con el mayor precio Total
+-El Producto o los Productos con el menor precio Total
+-El Producto o los Productos con el mayor precio por marca
+-El Producto o los Productos con el menor precio por marca
+-Promedio de precios de Productos según su marca
+-Cantidad Total de productos según la marca
+
+
+Los Productos tendrán los siguientes campos.. 
+id, nombre, marca, cantidad , precio
+
+
+Se deberá comprobar el correcto funcionamiento de todas las funcionalidades
+desarrolladas
+
+Solamente se podrá utilizar JAVA8
+
+
+
+

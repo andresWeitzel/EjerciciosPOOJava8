@@ -1,4 +1,4 @@
-package basicos;
+package cuentabancaria;
 
 public class Cuenta{
 
@@ -151,6 +151,46 @@ public boolean extraccion(double cantidad) {
 	}
 	
 	return true;
+}
+
+
+
+/**
+ * Método para la Transferencia de dinero entre una cuenta origen y otra destino.
+ * Si el saldo de la cuenta origen es menor que el impoprte de transferencia deseado 
+ * no se realiza la transferencia, caso contrario si.
+ * @param cuentaTransferir : cuenta destino de tipo Cuenta
+ * @param cantidadTransferir : monto deseado de transferencia
+ */
+public void transferencia (Cuenta cuentaTransferir , double cantidadTransferir) {
+	
+
+	if (saldo < cantidadTransferir) {
+	
+		System.out.println("Saldo Insuficiente de la Cuenta Destino");
+		System.out.println("Saldo : "+saldo);
+		System.out.println("Cantidad para Transferir : " + cantidadTransferir);
+		
+		
+	}else {
+		
+		//Modificamos el saldo de la Cuenta Origen
+		saldo = saldo - cantidadTransferir;
+		
+		//Aregamos la transferencia a la cuenta destino
+		cuentaTransferir.setSaldo(cuentaTransferir.getSaldo()  + cantidadTransferir); 
+		 
+		System.out.println("Se ha Transferido " + cantidadTransferir + " correctamente "
+				+ "a la Cuenta de destino");
+		
+		System.out.println("Saldo Actual Cuenta Origen : " + saldo);
+		System.out.println("Saldo Actual Cuenta Destino : " + cuentaTransferir.getSaldo());
+		
+	}
+	
+	
+	
+	
 }
 
 

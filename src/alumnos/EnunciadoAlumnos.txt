@@ -1,0 +1,58 @@
+
+------------------------------------------------------------------------------
+
+Crear una clase Alumno que almacene los datos del mismo
+, dichos datos serán id, nombre, apellido, edad, tipo doc, nro doc, nro tel, fecha ingreso
+, hora ingreso, adeuda 
+Esta Clase contendrá su Tipo "Mock"(Clase test), en dondo se deberán realizar las
+pruebas de todos los metodos de la clase creada solamente con java8
+
+Los Tipos de datos serán a elección salvo fecha_ingreso que sera de tipo fecha, 
+hora de ingreso que sera de tipo tiempo y adeuda que sera de tipo DOUBLE
+
+------------------------------------------------------------------------------
+
+Existira una clase de Tipo Examen con su "Mock" que contendrá los campos de Alumnos.
+Además existirá un constructor al que se le pueda pasar un Alumno además de los 
+campos de la clase.
+ La clase Mock de Examen almacenará y testeará los examenes de varios alumno , la
+clase Examen almacenará la nota de dicho examen y fecha/hora de realización.
+Ademas se crearán: 
+-un método que devuelva si el examen ha sido aprobado o desaprobado
+-un metodo que devuelva el porcentaje obtenido 
+-un metodo que devuelva el estado de dicha nota (No Satisfactorio, Satisfactorio, Excelente)  
+
+
+------------------------------------------------------------------------------
+
+
+Existirá una clase que solamente realice operaciones de listas de alumnos y/o notas
+almacenando las calificacones en estructuras de datos de tipo Api Collections implementando
+HashSet, TreeSet, ArrayList, etc solamente con JAVA8(lambdas, streams, etc)
+
+Se desea obtener listados de alumnos con 
+
+-Notas Altas de Examenes(Entre 8 y 10)      ----> Lista de tipo ArrayList
+-Notas Intermedias de Examenes(Entre 6 y 7) ----> Lista de tipo List
+-Notas Bajas de Examenes (Entre 1 y 5)		----> Lista de tipo LinkedList
+
+-Aprobados (Entre 7 y 10)
+-Desaprobados (Entre 1 y 6) 
+
+-Aprobados Ordenados de forma Ascendente según su nota (Entre 7 y 10)
+-Desaprobados Ordenados de forma Descendente según su nota (Entre 1 y 6)
+
+
+Para los Listados no se desea traer toda la informacion del alumno y de la nota
+en consola, solamente lo esencial
+
+ 
+
+------------------------------------------------------------------------------
+
+ 
+ Cada Clase deberá tener su correspondiente Mock (Clase de Prueba Test), además 
+ de getters setters, constructores parametricos y no parametricos, toString, etc.
+ 
+ 
+ ------------------------------------------------------------------------------
