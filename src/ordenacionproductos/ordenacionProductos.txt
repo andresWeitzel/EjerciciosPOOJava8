@@ -8,11 +8,11 @@ sus datos
 
 - Ordenar Productos de forma natural con los datos esenciales (id, nombre, marca, precio)
 
-- Ordenar Productos según su id (obtendremos el id, nombre y precio)
+- Ordenar Productos de forma natual según su id (obtendremos el id, nombre y precio)
 
-- Ordenar según su nombre (obtendremos id, nombre y precio)
+- Ordenar de forma natural según su nombre (obtendremos id, nombre y precio)
 
-- Ordenar según precio (obtendremos id, nombre y precio)
+- Ordenar de forma natural según su precio (obtendremos id, nombre y precio)
 
 Además se desea obtener: 
 
