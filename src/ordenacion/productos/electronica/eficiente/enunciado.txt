@@ -1,0 +1,57 @@
+
+
+
+
+Se desea craer una clase que nos permita realizar diversas ordenaciones de 
+listas de productos de electronica de forma eficiente, reduciendo codigo y 
+ampliando la funcionalidad de la clase. Para esto se deberán crear todas las 
+utilidades que nos permitan realizar los ordenamientos segun lo requerido. 
+
+Para dicha funcionalidad/utilidad se deberá trabajar con interfaces asi se tiene
+un código modularizado.
+
+
+
+ Las ordenaciones serán las siguientes..
+
+- Ordenar los Productos de forma Natural segun el id con todos sus datos
+
+- Ordenar los Productos de forma Natural segun sus nombres con todos sus datos
+
+- Ordenar Productos de forma natural con los datos esenciales (id, nombre, marca, precio)
+
+- Ordenar Productos de forma natual según su id (obtendremos el id, nombre y precio)
+
+- Ordenar de forma natural según su nombre (obtendremos id, nombre y precio)
+
+- Ordenar de forma natural según su marca (registro completo)
+
+- Ordenar de forma natural según su marca (obtendremos su id, nombre y marca)
+
+- Ordenar de forma natural según su fabricante (registro completo)
+
+- Ordenar de forma natural según su fabricante (obtendremos su id, nombre y marca)
+
+
+- Ordenar de forma natural según su precio (obtendremos id, nombre y precio)
+
+Además se desea obtener: 
+
+-El Producto o los Productos con el mayor precio Total
+-El Producto o los Productos con el menor precio Total
+-El Producto o los Productos con el mayor precio por marca
+-El Producto o los Productos con el menor precio por marca
+-Promedio de precios de Productos según su marca
+-Cantidad Total de productos según la marca
+
+
+Los Productos tendrán los siguientes campos.. 
+
+id, nombre, marca, fabricante , cantidad , precio
+
+
+Se deberá comprobar el correcto funcionamiento de todas las funcionalidades
+desarrolladas
+
+Solamente se podrá utilizar la sintaxis de JAVA8
+

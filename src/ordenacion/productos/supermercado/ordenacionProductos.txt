@@ -12,6 +12,10 @@ sus datos
 
 - Ordenar de forma natural según su nombre (obtendremos id, nombre y precio)
 
+- Ordenar de forma natural según su marca (registro completo)
+
+- Ordenar de forma natural según su marca (obtendremos su id, nombre y marca)
+
 - Ordenar de forma natural según su precio (obtendremos id, nombre y precio)
 
 Además se desea obtener: 
@@ -31,7 +35,7 @@ id, nombre, marca, cantidad , precio
 Se deberá comprobar el correcto funcionamiento de todas las funcionalidades
 desarrolladas
 
-Solamente se podrá utilizar JAVA8
+Solamente se podrá utilizar la sintaxis de JAVA8
 
 
 

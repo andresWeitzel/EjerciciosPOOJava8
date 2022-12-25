@@ -1,4 +1,4 @@
-package ordenacionproductos;
+package ordenacion.productos.supermercado;
 
 public class Producto {
 
